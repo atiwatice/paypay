@@ -1,0 +1,122 @@
+Tables:
+	Companies:
+companyId (Primary Key)
+companyNameEn
+companyNameTh
+companyAddress1
+companyAddress2
+companyAddress3
+companyAddress4
+companyTaxId
+companyCode (Optional)
+company2WayMatchingFlag
+company3WayMatchingFlag
+companyIcashCode
+companyIsupplyMode
+companyIsupplyCode
+companyMode (BUYER|SUPPLIER|BOTH)
+companyLogo
+
+	CompanyContract:
+companyId (FK)
+CompanyContractId (Primary Key)
+contactPerson
+phoneNumber
+officeNumber
+faxNumber
+email
+
+	CompanyBranch:
+companyId (FK)
+branchId (Primary Key)
+branchCode
+branchName
+vatBranchCode
+branchAddress1
+branchAddress2
+branchAddress3
+branchAddress4
+branchLocationMap
+
+	CompanyBranchContract:
+branchId (FK)
+companyBranchContractId (Primary Key)
+contactPerson
+phoneNumber
+officeNumber
+faxNumber
+email
+
+	Company relation (On/Off)
+companyIdA
+companyTaxA
+companyNameEnA
+companyNameThA
+companyIdB
+companyTaxB
+companyNameEnB
+companyNameThB
+status
+
+PurchaseOrders:
+
+POID (Primary Key)
+BuyerID (Foreign Key referencing Buyers)
+SupplierID (Foreign Key referencing Suppliers)
+PODate
+DeliveryAddress
+DeliveryDate
+PaymentTerms
+...
+GoodsReceipts:
+
+GRID (Primary Key)
+POID (Foreign Key referencing PurchaseOrders)
+GRDate
+ReceivedBy
+InspectionStatus
+...
+Invoices:
+
+InvoiceID (Primary Key)
+POID (Foreign Key referencing PurchaseOrders)
+InvoiceDate
+BillingAddress
+TotalAmount
+PaymentDueDate
+...
+
+ProductsServices:
+
+ProductServiceID (Primary Key)
+Description
+UnitPrice
+VATPercentage
+WHTPercentage
+...
+VATRates:
+
+VATRateID (Primary Key)
+RatePercentage
+WHTRates:
+
+WHTRateID (Primary Key)
+RatePercentage
+Junction Tables (for Many-to-Many Relationships):
+PO_ProductsServices:
+
+POID (Foreign Key referencing PurchaseOrders)
+ProductServiceID (Foreign Key referencing ProductsServices)
+Quantity
+...
+GR_ProductsServices:
+
+GRID (Foreign Key referencing GoodsReceipts)
+ProductServiceID (Foreign Key referencing ProductsServices)
+QuantityReceived
+...
+INV_ProductsServices:
+
+InvoiceID (Foreign Key referencing Invoices)
+ProductServiceID (Foreign Key referencing ProductsServices)
+BilledQuantity

@@ -1,0 +1,278 @@
+<mxfile host="app.diagrams.net" modified="2023-10-14T08:20:51.774Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="mzJxBAD3Q7wEbsBdlVUQ" version="21.5.2" type="device" pages="3">
+  <diagram name="Overall Architecture" id="f804gG1H2rbugzBrJrEt">
+    <mxGraphModel dx="1193" dy="639" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="gTjBNL6x__32mv3XOx5y-1" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.documents;" vertex="1" parent="1">
+          <mxGeometry x="210.25" y="120" width="22.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gTjBNL6x__32mv3XOx5y-3" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/generic_server.svg;" vertex="1" parent="1">
+          <mxGeometry x="320.5" y="110" width="28.000000000000004" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gTjBNL6x__32mv3XOx5y-4" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/databases.svg;" vertex="1" parent="1">
+          <mxGeometry x="367" y="110" width="30.61" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gTjBNL6x__32mv3XOx5y-5" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/generic_server.svg;" vertex="1" parent="1">
+          <mxGeometry x="339" y="400" width="28.000000000000004" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gTjBNL6x__32mv3XOx5y-6" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/generic_server.svg;" vertex="1" parent="1">
+          <mxGeometry x="564.5" y="110" width="28.000000000000004" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gTjBNL6x__32mv3XOx5y-7" value="Bank node" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="548.5" y="160" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gTjBNL6x__32mv3XOx5y-8" value="Party A, B, C" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="251.5" y="160" width="166" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gTjBNL6x__32mv3XOx5y-11" value="Bank Location" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="80" width="96" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gTjBNL6x__32mv3XOx5y-12" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/generic_server.svg;" vertex="1" parent="1">
+          <mxGeometry x="414" y="210" width="28.000000000000004" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gTjBNL6x__32mv3XOx5y-13" value="Customer Location" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="425.5" y="500" width="123" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gTjBNL6x__32mv3XOx5y-14" value="&lt;font style=&quot;font-size: 30px;&quot;&gt;Paypay Application&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="30" width="310" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gTjBNL6x__32mv3XOx5y-16" value="Buyer/Supplier/Both" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="251.5" y="180" width="166" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gTjBNL6x__32mv3XOx5y-17" value="Corda Party" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="378" y="261" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gTjBNL6x__32mv3XOx5y-18" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/generic_server.svg;" vertex="1" parent="1">
+          <mxGeometry x="564.5" y="210" width="28.000000000000004" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gTjBNL6x__32mv3XOx5y-19" value="Corda Bank" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="528.5" y="261" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gTjBNL6x__32mv3XOx5y-20" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/databases.svg;" vertex="1" parent="1">
+          <mxGeometry x="447.39" y="210" width="30.61" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gTjBNL6x__32mv3XOx5y-21" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/databases.svg;" vertex="1" parent="1">
+          <mxGeometry x="608.5" y="110" width="30.61" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gTjBNL6x__32mv3XOx5y-22" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/databases.svg;" vertex="1" parent="1">
+          <mxGeometry x="608.5" y="210" width="30.61" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gTjBNL6x__32mv3XOx5y-23" value="Party A, B, C" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="270" y="450" width="166" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gTjBNL6x__32mv3XOx5y-24" value="Buyer/Supplier/Both" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="270" y="470" width="166" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gTjBNL6x__32mv3XOx5y-25" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/generic_server.svg;" vertex="1" parent="1">
+          <mxGeometry x="414" y="330" width="28.000000000000004" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gTjBNL6x__32mv3XOx5y-26" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/databases.svg;" vertex="1" parent="1">
+          <mxGeometry x="447.39" y="330" width="30.61" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gTjBNL6x__32mv3XOx5y-27" value="Corda Party" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="397.61" y="380" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gTjBNL6x__32mv3XOx5y-28" value="PO/GR/INV" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="191.5" y="160" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="FkVbPHATrTJ-lvZ-j6NB" name="Flow Process On Bank">
+    <mxGraphModel dx="1122" dy="601" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Jv5YhTvG5Bj9E5NQIe-V-2" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/generic_server.svg;" vertex="1" parent="1">
+          <mxGeometry x="320.5" y="110" width="28.000000000000004" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Jv5YhTvG5Bj9E5NQIe-V-4" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/generic_server.svg;" vertex="1" parent="1">
+          <mxGeometry x="976" y="120" width="28.000000000000004" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Jv5YhTvG5Bj9E5NQIe-V-5" value="Bank node" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="960" y="170" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Jv5YhTvG5Bj9E5NQIe-V-6" value="Party A, B, C" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="251.5" y="160" width="166" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Jv5YhTvG5Bj9E5NQIe-V-7" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/generic_server.svg;" vertex="1" parent="1">
+          <mxGeometry x="576" y="110" width="28.000000000000004" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Jv5YhTvG5Bj9E5NQIe-V-8" value="Buyer/Supplier/Both" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="251.5" y="180" width="166" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Jv5YhTvG5Bj9E5NQIe-V-9" value="Corda Party" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="540" y="161" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Jv5YhTvG5Bj9E5NQIe-V-10" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/generic_server.svg;" vertex="1" parent="1">
+          <mxGeometry x="763" y="110" width="28.000000000000004" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Jv5YhTvG5Bj9E5NQIe-V-11" value="Corda Bank" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="727" y="161" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KD33pBx6ArrsPZaFf3t6-1" value="&lt;font style=&quot;font-size: 30px;&quot;&gt;Flow on Bank Location&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="30" width="310" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KD33pBx6ArrsPZaFf3t6-2" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/vista_client.svg;" vertex="1" parent="1">
+          <mxGeometry x="72" y="120" width="38" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="M_1tNFYYfgtWYDKVex-c-2" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;1. (Buyer) Send PO&amp;nbsp;or PO and GR&lt;br&gt;via File/Api/Screen&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="25" y="220" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="M_1tNFYYfgtWYDKVex-c-3" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;2. Recieve PO or Recieve PO and GR&lt;br&gt;Case 1 Noti Buyer to approve PO or PO and GR&lt;br&gt;Case 2 Auto approve and noti Supplier to Approve&amp;nbsp;&lt;br&gt;*** BUYER_WAITING_APPROVED_PO_GR&lt;br&gt;*** BUYER_APPROVED_PO_GR&lt;br&gt;*** BUYER_REJECTED_PO_GR&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="243.5" y="210" width="276" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="M_1tNFYYfgtWYDKVex-c-5" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;5. (Supplier) Approve/reject PO or Approve/reject PO/GR&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="25" y="320" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="M_1tNFYYfgtWYDKVex-c-6" value="Note Approve Layer Item:&lt;br&gt;All layer process in item" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="95" y="75" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="M_1tNFYYfgtWYDKVex-c-11" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;7. (Supplier) Create Inv via File/Api/Screen&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="25" y="350" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="M_1tNFYYfgtWYDKVex-c-13" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;3. When item is approve, create first state *** BUYER_APPROVED_PO_GR&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="511.5" y="210" width="180.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="M_1tNFYYfgtWYDKVex-c-14" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;4.Noti supplier to Approve and create INV&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="243.5" y="300" width="216.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="M_1tNFYYfgtWYDKVex-c-15" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;9. (Supplier) Approve/reject Invoice&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="25" y="400" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="M_1tNFYYfgtWYDKVex-c-16" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;6. Update status approve/reject&lt;br&gt;*** SUPPLIER_APPROVED_PO_GR&lt;br&gt;*** SUPPLIER_REJECTED_PO_GR&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="244.5" y="324" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="M_1tNFYYfgtWYDKVex-c-17" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;6.1 Update item is rejected estatus&lt;br&gt;*** SUPPLIER_REJECT_PO_GR&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="511.5" y="330" width="168.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="M_1tNFYYfgtWYDKVex-c-18" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;8. Recieve INV and send noti to approve&lt;br&gt;*** SUPPLIER_WAITING_APPROVED_INV&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240.5" y="360" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="M_1tNFYYfgtWYDKVex-c-19" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;9. Update inv status&lt;br&gt;*** SUPPLIER_APPROVED_INV&lt;br&gt;*** SUPPLIER_REJECTED_INV&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="243.5" y="410" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="M_1tNFYYfgtWYDKVex-c-20" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;10 Update item is approved/reject status&lt;br&gt;*** SUPPLIER_APPROVED_INV&lt;br&gt;*** SUPPLIER_REJECTED_INV&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="511.5" y="410" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="M_1tNFYYfgtWYDKVex-c-21" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;11. Noti buyer to make payment from inv&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="243.5" y="452" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="M_1tNFYYfgtWYDKVex-c-22" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;12. (Buyer) Buyer make payment from all inv or item in inv (Both Case inv/without inv)&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="25" y="480" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="M_1tNFYYfgtWYDKVex-c-23" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;(Buyer) Approve PO or Approve PO/GR&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="25" y="250" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="M_1tNFYYfgtWYDKVex-c-24" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;13. Update inv status (Have case By pass approve)&lt;br&gt;*** BUYER_WAITING_APPROVED_PAYMENT&lt;br&gt;*** BUYER_APPROVED_PAYMENT&lt;br&gt;*** BUYER_REJECTED_PAYMENT&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="243.5" y="482" width="265.5" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="M_1tNFYYfgtWYDKVex-c-25" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;14 Update item is approved/reject status&lt;br&gt;*** BUYER_APPROVED_PAYMENT&lt;br&gt;*** BUYER_APPROVED_PAYMENT&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="511.5" y="485" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="M_1tNFYYfgtWYDKVex-c-26" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;15 (Bank) Have 2 mode continue process and Batch depend on Buyer setting&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="25" y="560" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="M_1tNFYYfgtWYDKVex-c-27" value="16.(Bank) generate file from observation or listen&amp;nbsp;&lt;br&gt;and Update status&lt;br&gt;*** BANK_WAITING_PAYMENT_PROCESS" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="860" y="542" width="312.75" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="M_1tNFYYfgtWYDKVex-c-28" value="17.(Bank) get Result&lt;br&gt;*** BANK_PAID&lt;br&gt;*** BANK_REJECT" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="860" y="600" width="312.75" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M_1tNFYYfgtWYDKVex-c-29" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;14 Update item&lt;br&gt;*** BANK_PAID&lt;br&gt;*** BANK_REJECT&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="740" y="610" width="108" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="YvEbdBoErED-Oz9Ub_tn" name="Flow Approve profile">
+    <mxGraphModel dx="954" dy="511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="BhRWBJFDNdrAs_-bMUGY-1" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/generic_server.svg;" vertex="1" parent="1">
+          <mxGeometry x="320.5" y="110" width="28.000000000000004" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BhRWBJFDNdrAs_-bMUGY-2" value="Party A, B, C" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="251.5" y="160" width="166" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BhRWBJFDNdrAs_-bMUGY-3" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/generic_server.svg;" vertex="1" parent="1">
+          <mxGeometry x="576" y="110" width="28.000000000000004" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BhRWBJFDNdrAs_-bMUGY-4" value="Buyer/Supplier/Both" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="251.5" y="180" width="166" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BhRWBJFDNdrAs_-bMUGY-5" value="Corda Party" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="540" y="161" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BhRWBJFDNdrAs_-bMUGY-6" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/generic_server.svg;" vertex="1" parent="1">
+          <mxGeometry x="763" y="110" width="28.000000000000004" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BhRWBJFDNdrAs_-bMUGY-7" value="Bank" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="727" y="161" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BhRWBJFDNdrAs_-bMUGY-8" value="&lt;font style=&quot;font-size: 30px;&quot;&gt;Approve Profile&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="30" width="310" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BhRWBJFDNdrAs_-bMUGY-9" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/vista_client.svg;" vertex="1" parent="1">
+          <mxGeometry x="72" y="120" width="38" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BhRWBJFDNdrAs_-bMUGY-10" value="Note Approve Layer Item:&lt;br&gt;All layer process in item" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="95" y="75" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eqgD2_gsVKGaEdAuJzVQ-1" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;1. (Buyer) Buyer Create Buyer Profile&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="25" y="220" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eqgD2_gsVKGaEdAuJzVQ-2" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;2. Recieve Buyer profile and noti to approve&lt;br&gt;*** BUYER_WAITING_APPROVE_PROFILE&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="251.5" y="220" width="248.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SNrwryjQUvbygr09xO0h-1" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;3. (Buyer) Approve profile&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="25" y="260" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="h57k-hYuiclfKJA14j1F-1" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;3. Update status approve/reject&lt;br&gt;*** BUYER_APPROVED_PROFILE&lt;br&gt;*** BUYER_REJECTED_PROFILE&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="251.5" y="260" width="238.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="LTFkY0d7n9jrwq083GPa-1" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;6. When item is approve, create first state *** BUYER_WAITING_BANK_CONFIRM_PROFILE&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="493.5" y="320" width="208.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LTFkY0d7n9jrwq083GPa-2" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;4. (Buyer) Send request to bank&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="25" y="310" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LTFkY0d7n9jrwq083GPa-3" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;5. Update status approve/reject&lt;br&gt;*** BUYER_WAITING_BANK_CONFIRM_PROFILE&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="255" y="320" width="238.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="LTFkY0d7n9jrwq083GPa-4" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;7. Noti bank to approve/reject&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="740" y="310" width="208.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LTFkY0d7n9jrwq083GPa-5" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;9. Update status approve/reject&lt;br&gt;*** BUYER_BANK_REJECTED_PROFILE&lt;br&gt;*** BUYER_BANK_APPROVED_PROFILE&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="740" y="390" width="238.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="LTFkY0d7n9jrwq083GPa-6" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;8. (Bank) Bank approve&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="25" y="380" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="25K2BZqQlJ2m_Nn24uIl-1" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;10. Update state&lt;br&gt;*** BUYER_BANK_APPROVED&lt;br&gt;*** BUYER_BANK_REJECTED&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="493.5" y="390" width="258.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="25K2BZqQlJ2m_Nn24uIl-2" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;10. (Buyer) edit&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="25" y="440" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="25K2BZqQlJ2m_Nn24uIl-3" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;11. Recieve Buyer profile and noti to approve&lt;br&gt;*** BUYER_WAITING_APPROVE_PROFILE&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="251.5" y="440" width="248.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="25K2BZqQlJ2m_Nn24uIl-4" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;12. Update status approve/reject&lt;br&gt;*** BUYER_WAITING_BANK_CONFIRM_PROFILE&lt;br&gt;*** BUYER_REJECTED_PROFILE&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="251.5" y="480" width="238.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="25K2BZqQlJ2m_Nn24uIl-5" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;13. (Bank) Bank approve&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="25" y="530" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="25K2BZqQlJ2m_Nn24uIl-6" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;14. Update status approve/reject&lt;br&gt;*** BUYER_BANK_REJECTED_PROFILE&lt;br&gt;*** BUYER_BANK_APPROVED_PROFILE&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="740" y="535" width="238.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="25K2BZqQlJ2m_Nn24uIl-7" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;15. Update state&lt;br&gt;*** BUYER_BANK_APPROVED&lt;br&gt;*** BUYER_BANK_REJECTED&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="493.5" y="535" width="258.5" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
