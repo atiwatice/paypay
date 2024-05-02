@@ -1,0 +1,24 @@
+app:
+  version: 0.0.1
+
+spring:
+  profiles:
+    active: dev
+  application:
+    name: paypay-service
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/paypay?currentSchema=paypay
+    username: paypay
+    password: paypay
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    show-sql: false
+    open-in-view: true
+    generate-ddl: true
+    hibernate:
+      ddl-auto: none
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+server:
+  port: 8010

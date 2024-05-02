@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-PaypayApplication<paypay>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.paypay.paypay.PaypayApplication",
+            "projectName": "paypay",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
